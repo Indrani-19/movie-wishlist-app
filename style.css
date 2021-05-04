@@ -1,0 +1,135 @@
+body {
+  background-image: url("movietheatre.jpg");
+  background-size: 100%;
+  font-family: sans-serif;
+  color:#444;
+  letter-spacing: 1px;
+}
+
+h1{
+    font-weight: bold;
+}
+h2{
+    font-weight: normal;
+    font-style: inherit;
+}
+#wrapper{
+    background-color: rgb(245, 244, 244);
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 1px 10px 10px rgba(0,0,0,1);
+    box-sizing: border-box;
+     padding: 0 0 30px;
+    overflow: hidden;
+    border: 1px solid black;
+
+}
+#page-banner{
+    background-image: url("screen.jpeg");
+    background-size: 80%;
+    align-items: center;
+    
+}
+#page-banner h1,
+#page-banner p {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+#movielist,
+#addmovie{
+    margin: 50px;
+
+}
+#movielist ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#movielist li{
+    padding: 20px;
+    border-left: 10px solid rgb(10, 122, 150);
+    margin: 20px 50px;
+}
+#movielist li:hover{
+    border-color: aquamarine;
+}
+.delete{
+    float: right;
+    background: red;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+.delete:hover{
+    background: maroon;
+    border-radius: 4px;
+}
+
+form input[type="text"] {
+    width:90px;
+  }
+  
+  input {
+    padding-left: 20px;
+  }
+
+  
+  button:hover {
+    background: #2fd4d4;
+    border-bottom-color: #111;
+  }
+  
+  button:active {
+    position: relative;
+    top: 1px;
+  }
+  #addmovie{
+      width: 400px;
+      margin:auto;
+  }
+  #addmovie input {
+      display: inline-block;
+      margin: 20px 0;
+      padding: 10px;
+      border: 1px solid #444;
+      font-size: 16px;
+      font-family: sans-serif;
+      border-radius: 4px 0 0 4px;
+      box-sizing: border-box;
+      width: 300px;
+      float: left;
+      clear:both;
+}
+
+#addmovie button {
+    border: 1px solid goldenrod;
+    background: gold;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width: 100px;
+    float: left;
+margin: 20px 0;
+    border-left: 0;
+    color: rgb(12, 12, 12);
+}
+
+#addmovie button:hover {
+    background: #d4f056;
+    
+  }
+ #addmovie:after{
+    content: "";
+    display: block;
+    clear: both;
+ }
+ #addmovie label{
+     line-height: 52px;
+ }
